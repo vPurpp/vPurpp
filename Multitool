@@ -1,4 +1,4 @@
-
+--Made by vPurpp
 
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
@@ -8,6 +8,7 @@ local ScrollingFrame = Instance.new("ScrollingFrame")
 local JailbreakAR = Instance.new("TextButton")
 local OperationScorpion = Instance.new("TextButton")
 local PhantomESP = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
 local vPurpp = Instance.new("TextButton")
 local YoutubeImage = Instance.new("ImageLabel")
 local vSmoke = Instance.new("ImageLabel")
