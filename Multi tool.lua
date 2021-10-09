@@ -1,10 +1,16 @@
-```
+
 
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Label = Instance.new("TextLabel")
-local OperationScorpion = Instance.new("TextButton")
+local vsmoke = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
 local JailbreakAR = Instance.new("TextButton")
+local OperationScorpion = Instance.new("TextButton")
+local PhantomESP = Instance.new("TextButton")
+local vPurpp = Instance.new("TextButton")
+local YoutubeImage = Instance.new("ImageLabel")
+local vSmoke = Instance.new("ImageLabel")
 
 --Properties:
 
@@ -14,8 +20,8 @@ Main.Name = "Main"
 Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderColor3 = Color3.fromRGB(7, 0, 53)
-Main.Position = UDim2.new(0.469416797, 0, 0.550072551, 0)
-Main.Size = UDim2.new(0, 373, 0, 310)
+Main.Position = UDim2.new(0.664673507, 0, 0.298538864, 0)
+Main.Size = UDim2.new(0, 406, 0, 523)
 Main.Active = true
 Main.Draggable = true
 
@@ -23,41 +29,103 @@ Label.Name = "Label"
 Label.Parent = Main
 Label.BackgroundColor3 = Color3.fromRGB(14, 0, 63)
 Label.BorderColor3 = Color3.fromRGB(14, 0, 63)
-Label.Size = UDim2.new(0, 373, 0, 32)
+Label.Size = UDim2.new(0, 405, 0, 32)
 Label.Font = Enum.Font.RobotoMono
 Label.Text = "Roblox Multi Cheat |Made by vPurpp/vSmoke"
 Label.TextColor3 = Color3.fromRGB(70, 61, 199)
 Label.TextSize = 14.000
 
-OperationScorpion.Name = "Operation Scorpion"
-OperationScorpion.Parent = Main
-OperationScorpion.BackgroundColor3 = Color3.fromRGB(103, 139, 255)
-OperationScorpion.BorderColor3 = Color3.fromRGB(5, 1, 53)
-OperationScorpion.Position = UDim2.new(0, 0, 0.145161286, 0)
-OperationScorpion.Size = UDim2.new(0, 373, 0, 34)
-OperationScorpion.AutoButtonColor = false
-OperationScorpion.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
-OperationScorpion.Font = Enum.Font.Cartoon
-OperationScorpion.Text = "Operation Scorpion"
-OperationScorpion.TextColor3 = Color3.fromRGB(0, 0, 0)
-OperationScorpion.TextSize = 14.000
-OperationScorpion.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/GameEditor-RBLX23/OD/main/nutshell'))()
-end)
+vsmoke.Name = "vsmoke"
+vsmoke.Parent = Main
+vsmoke.BackgroundColor3 = Color3.fromRGB(103, 139, 255)
+vsmoke.BorderColor3 = Color3.fromRGB(5, 1, 53)
+vsmoke.Position = UDim2.new(0.00738916267, 0, 0.922827482, 0)
+vsmoke.Size = UDim2.new(0, 197, 0, 34)
+vsmoke.AutoButtonColor = false
+vsmoke.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+vsmoke.Font = Enum.Font.Cartoon
+vsmoke.Text = "vSmoke"
+vsmoke.TextColor3 = Color3.fromRGB(0, 0, 0)
+vsmoke.TextSize = 14.000
+
+--Made by vPurpp
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScrollingFrame.Position = UDim2.new(0, 0, 0.125232518, 0)
+ScrollingFrame.Size = UDim2.new(0, 405, 0, 231)
 
 JailbreakAR.Name = "Jailbreak AR"
-JailbreakAR.Parent = Main
-JailbreakAR.BackgroundColor3 = Color3.fromRGB(103, 139, 255)
+JailbreakAR.Parent = ScrollingFrame
+JailbreakAR.BackgroundColor3 = Color3.fromRGB(55, 45, 163)
 JailbreakAR.BorderColor3 = Color3.fromRGB(5, 1, 53)
-JailbreakAR.Position = UDim2.new(0, 0, 0.254838705, 0)
+JailbreakAR.Position = UDim2.new(0.0124373566, 0, 0.0553074703, 0)
 JailbreakAR.Size = UDim2.new(0, 373, 0, 34)
 JailbreakAR.AutoButtonColor = false
-JailbreakAR.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
 JailbreakAR.Font = Enum.Font.Cartoon
 JailbreakAR.Text = "Jailbreak Auto Rob"
 JailbreakAR.TextColor3 = Color3.fromRGB(0, 0, 0)
 JailbreakAR.TextSize = 14.000
 JailbreakAR.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
 end)
-```
+
+OperationScorpion.Name = "Operation Scorpion"
+OperationScorpion.Parent = ScrollingFrame
+OperationScorpion.BackgroundColor3 = Color3.fromRGB(55, 45, 163)
+OperationScorpion.BorderColor3 = Color3.fromRGB(5, 1, 53)
+OperationScorpion.Position = UDim2.new(0.0149003789, 0, 0.0161290318, 0)
+OperationScorpion.Size = UDim2.new(0, 373, 0, 34)
+OperationScorpion.AutoButtonColor = false
+OperationScorpion.Font = Enum.Font.Cartoon
+OperationScorpion.Text = "Operation Scorpion"
+OperationScorpion.TextColor3 = Color3.fromRGB(0, 0, 0)
+OperationScorpion.TextSize = 14.000
+OperationScorpion.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/GameEditor-RBLX23/OD/main/nutshell'))()
+end)
+
+PhantomESP.Name = "Phantom ESP"
+PhantomESP.Parent = ScrollingFrame
+PhantomESP.BackgroundColor3 = Color3.fromRGB(55, 45, 163)
+PhantomESP.BorderColor3 = Color3.fromRGB(5, 1, 53)
+PhantomESP.Position = UDim2.new(0.0100168493, 0, 0.0939911157, 0)
+PhantomESP.Size = UDim2.new(0, 373, 0, 34)
+PhantomESP.AutoButtonColor = false
+PhantomESP.Font = Enum.Font.Cartoon
+PhantomESP.Text = "Phantom Forces"
+PhantomESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+PhantomESP.TextSize = 14.000
+PhantomESP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
+end)
+
+vPurpp.Name = "vPurpp"
+vPurpp.Parent = Main
+vPurpp.BackgroundColor3 = Color3.fromRGB(103, 139, 255)
+vPurpp.BorderColor3 = Color3.fromRGB(5, 1, 53)
+vPurpp.Position = UDim2.new(0.498659611, 0, 0.922827482, 0)
+vPurpp.Size = UDim2.new(0, 198, 0, 34)
+vPurpp.AutoButtonColor = false
+vPurpp.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+vPurpp.Font = Enum.Font.Cartoon
+vPurpp.Text = "vPurpp"
+vPurpp.TextColor3 = Color3.fromRGB(0, 0, 0)
+vPurpp.TextSize = 14.000
+
+YoutubeImage.Name = "Youtube Image"
+YoutubeImage.Parent = Main
+YoutubeImage.Active = true
+YoutubeImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+YoutubeImage.Position = UDim2.new(0.542000294, 0, 0.615409017, 0)
+YoutubeImage.Size = UDim2.new(0, 161, 0, 153)
+YoutubeImage.Image = "http://www.roblox.com/asset/?id=7692967457"
+
+vSmoke.Name = "vSmoke"
+vSmoke.Parent = Main
+vSmoke.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+vSmoke.Position = UDim2.new(0.0592416897, 0, 0.615409017, 0)
+vSmoke.Size = UDim2.new(0, 153, 0, 153)
+vSmoke.Image = "http://www.roblox.com/asset/?id=7693033366"
