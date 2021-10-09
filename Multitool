@@ -102,6 +102,21 @@ PhantomESP.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
 end)
 
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = ScrollingFrame
+Arsenal.BackgroundColor3 = Color3.fromRGB(55, 45, 163)
+Arsenal.BorderColor3 = Color3.fromRGB(5, 1, 53)
+Arsenal.Position = UDim2.new(0.0124859838, 0, 0.135100111, 0)
+Arsenal.Size = UDim2.new(0, 373, 0, 34)
+Arsenal.AutoButtonColor = false
+Arsenal.Font = Enum.Font.Cartoon
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 14.000
+PhantomESP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://solarishub.dev/script.lua',true))()
+end)
+
 vPurpp.Name = "vPurpp"
 vPurpp.Parent = Main
 vPurpp.BackgroundColor3 = Color3.fromRGB(103, 139, 255)
