@@ -32,7 +32,7 @@ Label.BackgroundColor3 = Color3.fromRGB(14, 0, 63)
 Label.BorderColor3 = Color3.fromRGB(14, 0, 63)
 Label.Size = UDim2.new(0, 405, 0, 32)
 Label.Font = Enum.Font.RobotoMono
-Label.Text = "Roblox Multi Cheat |Made by vPurpp/vSmoke"
+Label.Text = "Multi Script Hub|Made by vPurpp/vSmoke"
 Label.TextColor3 = Color3.fromRGB(70, 61, 199)
 Label.TextSize = 14.000
 
